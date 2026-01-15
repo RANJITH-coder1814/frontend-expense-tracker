@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    width: 320px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.balance {
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.income {
+    color: green;
+}
+
+.expense {
+    color: red;
+}
+
+form input, button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px 0;
+    background: #eee;
+}
